@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o CMakeFiles/test.dir/main.cpp.o CMakeFiles/test.dir/driverwindow.cpp.o -o test  /usr/lib/libQt6Widgets.so.6.5.2 /usr/lib/libQt6Gui.so.6.5.2 /usr/lib/libQt6Core.so.6.5.2 /usr/lib/libGLX.so /usr/lib/libOpenGL.so 

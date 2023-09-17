@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DriverWindow</class>
+ <widget class="QWidget" name="DriverWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DriverWindow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="scoreLabel">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="locationLabel">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listReports"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="validateReportButton">
+     <property name="text">
+      <string>Validate Report</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="chatList"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="chatLine">
+     <property name="text">
+      <string>asdfasdf</string>
+     </property>
+     <property name="placeholderText">
+      <string>asdf</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="chatButton">
+     <property name="text">
+      <string>SEND</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>report description</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="reportDescriptionLine"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>report Location</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="reportLineX"/>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="reportLineY"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="fileReportB">
+     <property name="text">
+      <string>File Report</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="showMapButton">
+     <property name="text">
+      <string>show map</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
